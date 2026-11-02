@@ -1,0 +1,21 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global styles */
+body {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    min-height: 100vh;   /* Ensures body fills the viewport */
+}
+
+#root {
+    min-height: 100vh;   /* Ensures React app fills the body */
+}
