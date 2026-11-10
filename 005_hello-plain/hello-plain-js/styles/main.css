@@ -1,40 +1,40 @@
 :root {
-    --color-text: #333;
-    --color-bg: #f9f9f9;
-    --color-main: #fff;
+  --color-text: #333;
+  --color-bg: #f9f9f9;
+  --color-main: #fff;
 }
 
 /* reset styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* general styles */
 body {
-    width: 50%;
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: var(--color-text);
-    background-color: var(--color-bg);
-    min-height: 100vh;   /* ensure body is full height of viewport */
+  width: 50%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  min-height: 100vh; /* ensure body is full height of viewport */
 }
 
 .app {
-    background-color: var(--color-main);
-    padding: 1rem 2rem;
+  background-color: var(--color-main);
+  padding: 1rem 2rem;
 }
 
 .hello-display {
-    padding: 1rem;
-    font-weight: bold;
-    font-size: 1.5rem;
-    text-align: center;
-    color: royalblue;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  color: royalblue;
 }
 
 .error {
-    color: red;
+  color: red;
 }
